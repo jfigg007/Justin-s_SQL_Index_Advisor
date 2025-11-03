@@ -1,3 +1,6 @@
+![Views](https://hits.sh/github.com/jfigg007/Justin-s_SQL_Index_Advisor.svg?style=flat-square&label=views&color=blue)
+
+
 # Justin's SQL Index Advisor
 
 Instance-wide missing index advisor for SQL Server:
