@@ -1,0 +1,3 @@
+# Justin's SQL Index Advisor
+Instance-wide missing index advisor for SQL Server...
+(Truncated for brevity - full content from textdoc)
