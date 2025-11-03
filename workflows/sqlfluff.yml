@@ -1,0 +1,11 @@
+name: SQL Lint
+on: [push, pull_request]
+jobs:
+  sqlfluff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install sqlfluff
+        run: pip install sqlfluff
+      - name: Lint
+        run: sqlfluff lint --dialect tsql install.sql
